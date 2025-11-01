@@ -50,3 +50,25 @@ print("isEmpty: ", isEmpty)
 
 print("Size", len(stack) )
 
+x.append(8)
+x.append(5)
+x.append(2)
+x.append(90)
+
+print(x)
+
+# x.pop(-1)
+# print(x)
+
+# for i in x:
+x.sort()
+print(x)
+
+print(x[-2])
+
+
+
+x = int(input())
+y = int(input())
+
+print(x+y)

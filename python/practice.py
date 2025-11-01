@@ -95,3 +95,45 @@ else:
 
 x = 200
 print(isinstance(x, float))
+
+
+age = 25
+
+is_student = False
+has_discount_code = True
+
+
+if(age<18 or age>65) and not is_student or  has_discount_code:
+    print("discont applies")
+
+
+# i =1
+
+# while i<6:
+#     # print(i)
+#     i+=1
+#     if i==3:
+#         continue
+#     print(i)
+
+
+i=1
+
+while i<6:
+    print(i)
+    i += 1
+else:
+    print("i is no longer less than 6")
+     
+x = range(1,10,2)
+# print(x)
+
+for i in x:
+    print(i)
+
+print(list(range(5, 20, 3)))
+
+r = range(5,20,3)
+print(r[2])
+print(r[:3])
+
