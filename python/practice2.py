@@ -68,7 +68,45 @@ print(x[-2])
 
 
 
-x = int(input())
-y = int(input())
+# x = int(input())
+# y = int(input())
 
-print(x+y)
+# print(x+y)
+
+def get_greeting():
+    return "hello from a function"
+
+message = get_greeting()
+
+print(message)
+
+print(get_greeting())
+
+
+def my_function(fname):
+    print(fname + "hello")
+
+
+my_function("tanishq")
+
+
+thisset = {"apple", "banana", "cherry"}
+print(thisset) 
+
+# thislist = ("apple", "banana", "cherry")
+# print(thislist) 
+
+numbers = {10,222,3233,4}
+print(numbers)
+
+
+print(sorted(numbers))
+
+
+thisdict = {
+    "brand" : "Ford",
+    "model" : "Mustang",
+    "year" :1964
+}
+
+print(thisdict)
