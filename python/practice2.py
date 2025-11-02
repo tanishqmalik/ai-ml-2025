@@ -110,3 +110,7 @@ thisdict = {
 }
 
 print(thisdict)
+
+
+for i in range(10):
+    print(i)
