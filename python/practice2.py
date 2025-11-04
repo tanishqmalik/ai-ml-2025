@@ -93,8 +93,8 @@ my_function("tanishq")
 thisset = {"apple", "banana", "cherry"}
 print(thisset) 
 
-# thislist = ("apple", "banana", "cherry")
-# print(thislist) 
+thislist = ["apple", "banana", "cherry"]
+print(thislist) 
 
 numbers = {10,222,3233,4}
 print(numbers)
@@ -109,8 +109,20 @@ thisdict = {
     "year" :1964
 }
 
+thisdict1 = {
+    1 : "8999999",
+    2 : "2",
+    3 : "3"
+}
+
 print(thisdict)
 
 
 for i in range(10):
     print(i)
+
+
+print(thislist) 
+
+print(thisdict["brand"])
+print(thisdict1[1])
